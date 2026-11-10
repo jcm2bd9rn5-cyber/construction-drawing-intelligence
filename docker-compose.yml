@@ -1,0 +1,11 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: drawing_intelligence
+    ports: ["5432:5432"]
+    volumes: ["drawing_intelligence_pgdata:/var/lib/postgresql/data"]
+volumes:
+  drawing_intelligence_pgdata:
