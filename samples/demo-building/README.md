@@ -1,8 +1,9 @@
-# Synthetic demo building
+# 架空デモ建物
 
-This directory contains fictional, text-only records created for this public demo.
-It does not describe a real building, company, project, or construction contract.
+このディレクトリには、公開デモ専用に作成した架空のテキストデータだけを収録しています。
 
-- `drawings/`: four compact Markdown drawing summaries
-- `changes/`: one fictional change record
-- `building-info/`: a minimal catalog used by local metadata search
+実在する建物・企業・工事・契約・図面を表すものではありません。
+
+- `drawings/`: 4件のコンパクトな Markdown 図面概要
+- `changes/`: 1件の架空変更記録
+- `building-info/`: ローカル metadata search 用の最小 catalog

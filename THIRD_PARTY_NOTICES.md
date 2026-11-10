@@ -1,9 +1,14 @@
-# Third-party notices
+# Third-party notices / 第三者ライセンス表記
 
-The application UI incorporates the following Lucian UX/UI Prompt elements under the MIT License. The attribution comments are preserved in `app/main.py`.
+アプリケーション UI の一部では、Lucian UX/UI Prompt の以下の要素を MIT License に基づいて参照しています。
 
 - Lucian UX/UI Prompt #101
 - Lucian UX/UI Prompt #092
 - Lucian UX/UI Prompt #048
 
-Copyright (c) 2026 Seokwoooo. See <https://lucianlabs.dev/uxui-prompt/>.
+必要な attribution comment は `app/main.py` に保持しています。
+
+Copyright (c) 2026 Seokwoooo
+Source: https://lucianlabs.dev/uxui-prompt/
+
+このファイルは第三者由来要素の attribution を明示するためのものです。本プロジェクト本体のライセンスは [LICENSE](LICENSE) を参照してください。
