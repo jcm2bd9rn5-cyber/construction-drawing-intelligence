@@ -1,5 +1,7 @@
 # Construction Drawing Intelligence
 
+Grounded RAG for construction drawings with hybrid retrieval, verifiable citations, and source-page highlighting.
+
 ## Overview
 
 Construction Drawing Intelligence is a local prototype for searching construction drawings and technical records with natural-language queries. Its grounded QA flow keeps the answer connected to evidence that can be traced back to a source page or Markdown section.
@@ -136,6 +138,10 @@ The PostgreSQL integration test runs when `DATABASE_URL` points to an available 
 - Production observability and cost controls
 - Model and embedding migration tooling
 
-## Licensing and Attribution
+## License
 
-No project-level license is included yet. Before public release, the repository owner should confirm that they have the right to license all first-party code and then select a license; MIT is a possible candidate, not a legal conclusion. Third-party UI attribution is recorded in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and preserved in the source comments.
+The first-party project code is available under the [MIT License](LICENSE).
+
+## Third-party notices
+
+Third-party UI attribution is recorded in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and preserved in the source comments.
